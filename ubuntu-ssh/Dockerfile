@@ -3,7 +3,7 @@ MAINTAINER moldit
 
 # install ssh
 RUN apt-get update
-RUN apt-get install -y openssh-server
+RUN apt-get install -y openssh-server python2.7
 RUN mkdir /var/run/sshd
 EXPOSE 22
 
